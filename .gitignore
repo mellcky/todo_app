@@ -1,0 +1,25 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+*.lock
+*.iml
+*.log
+*.meta
+
+# Android
+/android/gradle-wrapper.jar
+/android/.gradle
+/android/local.properties
+/android/key.properties
+/android/**/gradle_app.setting
+/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+/ios/**/*.mode1v3
+/ios/**/*.pbxuser
+/ios/**/*.perspectivev3
+/ios/Pods/
