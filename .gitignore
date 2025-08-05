@@ -1,25 +1,37 @@
-# Flutter/Dart
+# Flutter/Dart/Pub related
 .dart_tool/
 .packages
-.pub-cache/
 .pub/
 build/
-flutter_*.png
-*.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.pub-cache/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Android related
+**/android/key.properties
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+Pods/
+DerivedData/
+.xcworkspace
+*.xcuserstate
+
+# VS Code settings
+.vscode/
+
+# Other
+.idea/
 *.iml
 *.log
-*.meta
-
-# Android
-/android/gradle-wrapper.jar
-/android/.gradle
-/android/local.properties
-/android/key.properties
-/android/**/gradle_app.setting
-/android/**/GeneratedPluginRegistrant.java
-
-# iOS
-/ios/**/*.mode1v3
-/ios/**/*.pbxuser
-/ios/**/*.perspectivev3
-/ios/Pods/
+*.lock
